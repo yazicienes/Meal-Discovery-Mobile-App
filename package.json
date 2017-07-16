@@ -1,0 +1,29 @@
+{
+  "name": "dinder",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "firebase": "^3.5.3",
+    "firebase-nest": "^0.1.2",
+    "mobx": "^2.6.1",
+    "mobx-firebase-store": "^0.1.19",
+    "mobx-react": "^3.5.8",
+    "native-base": "^0.5.11",
+    "react": "15.3.2",
+    "react-native": "0.36.0"
+  },
+  "jest": {
+    "preset": "jest-react-native"
+  },
+  "devDependencies": {
+    "babel-jest": "16.0.0",
+    "babel-preset-react-native": "1.9.0",
+    "jest": "16.0.2",
+    "jest-react-native": "16.0.0",
+    "react-test-renderer": "15.3.2"
+  }
+}
